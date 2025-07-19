@@ -109,6 +109,8 @@ The classification process included the following steps:
 - Scikit-learn
 - Pandas
 
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -122,11 +124,17 @@ ml-classification-and-pr/
 └── report-presentation.pdf   # Slide-based summary of all parts: methodology, results, visualizations
 ```
 
-✍️ Author
+---
+
+## ✍️ Author
+
 Panagiotis Koutris
 Student at ECE AUTH – School of Electrical & Computer Engineering
 
-📄 License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
 
 
