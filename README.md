@@ -1,4 +1,4 @@
-# Pattern Recognition and Machine Learning Techniques
+# Machine Learning Classification and Pattern Recognision
 
 This repository explores a variety of supervised classification techniques, combining concepts from statistical pattern recognition and modern machine learning.
 
