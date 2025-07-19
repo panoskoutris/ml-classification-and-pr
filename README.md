@@ -128,13 +128,14 @@ ml-classification-and-pr/
 
 ## ✍️ Author
 
-Panagiotis Koutris
-
+**Panagiotis Koutris**  
 Student at ECE AUTH – School of Electrical & Computer Engineering
 
 ---
 
 ## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 This project is licensed under the MIT License.
 
