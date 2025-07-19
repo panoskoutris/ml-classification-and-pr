@@ -70,17 +70,33 @@ We apply classical ML classifiers to a subset of the Iris dataset, using only:
 
 ## 🧩 Part D – Classification of High-Dimensional Data
 
-We tackle a large-scale multi-class classification problem using:
-- **Training set**: `datasetTV.csv` with 8743 samples, 224 features, and labels in {1, 2, 3, 4, 5}
-- **Test set**: `datasetTest.csv` with 6955 unlabeled samples
+This part focuses on solving a large-scale, multi-class classification problem using a real-world dataset:
 
-### Pipeline:
-- Preprocessing (normalization, dimensionality reduction if needed)
-- Model selection and evaluation using cross-validation
-- Final training and inference
-- Output predicted labels in `labels.npy` (1D array of length 6955)
+- **Training set**: `datasetTV.csv` — 8743 samples, each with 224 features and a class label in {1, 2, 3, 4, 5}
+- **Test set**: `datasetTest.csv` — 6955 unlabeled samples with the same 224 features
 
-The solution is designed for generalization and scalability. Models such as logistic regression, support vector machines, or ensemble classifiers may be employed.
+### Approach
+
+The classification process included the following steps:
+
+1. **Preprocessing and Dimensionality Reduction**
+   - All features were standardized using `StandardScaler` to ensure they have zero mean and unit variance.
+   - **Principal Component Analysis (PCA)** was applied to reduce the number of features while retaining the majority of the dataset's variance. The number of components was chosen based on the cumulative explained variance.
+
+2. **Model Selection and Training**
+   - Several classifiers were tested, and a **Random Forest** was selected due to its consistent performance and robustness.
+   - Key hyperparameters such as the number of trees (`n_estimators`) and maximum depth were adjusted manually.
+   - The training set was internally split to validate the model's performance before final deployment.
+
+3. **Prediction**
+   - After training, the final model was used to predict labels for the test set (`datasetTest.csv`).
+   - The predictions were saved in a file named `labels.npy` as a 1D NumPy array of length 6955.
+
+### Output
+
+- `labels.npy` contains the predicted class labels for each test sample.
+- All preprocessing and classification steps were implemented using standard Python libraries such as NumPy, scikit-learn, and Pandas.
+
 
 ---
 
