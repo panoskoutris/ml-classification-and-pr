@@ -100,7 +100,7 @@ The classification process included the following steps:
 
 ---
 
-## 🛠️ Resources Utilized
+##  Resources Utilized
 
 - Python 3
 - Jupiter Notebook
