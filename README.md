@@ -129,7 +129,7 @@ ml-classification-and-pr/
 ##  Author
 
 **Panagiotis Koutris**  
-Student at ECE AUTH – School of Electrical & Computer Engineering
+Undergraduate at ECE AUTH – School of Electrical & Computer Engineering
 
 ---
 
