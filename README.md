@@ -11,7 +11,7 @@ The project is divided into four parts:
 
 ---
 
-## 🧩 Part A – Lorentzian-Based Classification (Maximum Likelihood)
+##  Part A – Lorentzian-Based Classification (Maximum Likelihood)
 
 We construct a binary classifier for detecting user stress levels using a custom indicator derived from game controller input data. The data is assumed to follow a **Lorentzian (Cauchy)** distribution:
 
@@ -29,7 +29,7 @@ Tasks:
 
 ---
 
-## 🧩 Part B – Bayesian Parameter Estimation and Classification
+##  Part B – Bayesian Parameter Estimation and Classification
 
 Building on Part A, we now incorporate a **prior distribution** for θ:
 
@@ -47,7 +47,7 @@ Tasks:
 
 ---
 
-## 🧩 Part C – Decision Trees and Random Forests on Iris Data
+##  Part C – Decision Trees and Random Forests on Iris Data
 
 We apply classical ML classifiers to a subset of the Iris dataset, using only:
 - Sepal length
@@ -68,7 +68,7 @@ We apply classical ML classifiers to a subset of the Iris dataset, using only:
 
 ---
 
-## 🧩 Part D – Classification of High-Dimensional Data
+##  Part D – Classification of High-Dimensional Data
 
 This part focuses on solving a large-scale, multi-class classification problem using a real-world dataset:
 
@@ -111,7 +111,7 @@ The classification process included the following steps:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ml-classification-and-pr/
@@ -126,14 +126,14 @@ ml-classification-and-pr/
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Panagiotis Koutris**  
 Student at ECE AUTH – School of Electrical & Computer Engineering
 
 ---
 
-## 📄 License
+##  License
 
 Licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
 
